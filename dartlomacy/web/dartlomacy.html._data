@@ -1,0 +1,1 @@
+{"experimental_bootstrap":false,"script_ids":[["core_elements","lib/core_header_panel.dart"],["dartlomacy","lib/src/components/dartlomacy_element.dart"],["dartlomacy","lib/src/components/game_element.dart"],["dartlomacy","lib/src/components/lobby_element.dart"],["dartlomacy","web/dartlomacy.dart"]]}

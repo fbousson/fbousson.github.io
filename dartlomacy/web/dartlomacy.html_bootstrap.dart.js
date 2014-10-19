@@ -7115,6 +7115,7 @@ S5:{
 "^":"a;vO,ka",
 oS:function(){$.nt().To("Cast constructor")
 var z=$.ca()
+z.V7("alert",["Hello from Dart!"])
 this.vO=J.UQ(z,"cast")
 this.ka=J.UQ(J.UQ(J.UQ(z,"cast"),"receiver"),"CastReceiverManager").nQ("getInstance")
 $.nt().To("Done with Cast constructor")},

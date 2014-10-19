@@ -3566,7 +3566,7 @@ core-toolbar {
 }</style>
     <core-header-panel>
         <core-toolbar>
-            <div id="dartlomacy-title">Dartlomacy v0.0.1</div>
+            <div class="dartlomacy-title">Dartlomacy v0.0.1</div>
         </core-toolbar>
         <dartlomacy-element id="dartlomacy"></dartlomacy-element>
     </core-header-panel>
@@ -3631,7 +3631,8 @@ core-toolbar {
       // utility function to display the text message in the input field
       function displayText(text) {
         console.log(text);
-        document.getElementById("dartlomacy-title").innerHTML=text;
+      //  document.getElementById("dartlomacy-title").innerHTML=text;
+    	  document.getElementsByClassName('dartlomacy-title').innerHTML=text;
         window.castReceiverManager.setApplicationState(text);
       };
     </script>

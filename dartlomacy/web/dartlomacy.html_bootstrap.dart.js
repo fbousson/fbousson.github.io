@@ -7111,6 +7111,14 @@ return}throw"Unable to print message: "+String(a)}}],["","",,M,{
 "^":"",
 Iy:function(){N.Jx("").sQG(C.a8)
 N.Jx("").gSZ().nu(new M.b9())},
+S5:{
+"^":"a;vO,ka",
+oS:function(){$.nt().To("Cast constructor")
+var z=$.ca()
+this.vO=J.UQ(z,"cast")
+this.ka=J.UQ(J.UQ(J.UQ(z,"cast"),"receiver"),"CastReceiverManager").nQ("getInstance")
+$.nt().To("Done with Cast constructor")},
+static:{"^":"qF"}},
 b9:{
 "^":"Tp:100;",
 $1:[function(a){P.mp(a.gFl().bu(0)+" - "+a.gQG().oc+" - "+a.giJ()+" - "+H.d(J.z2(a)))},"$1",null,2,0,null,99,"call"],
@@ -7142,7 +7150,10 @@ $iswn:true},
 Yi:{
 "^":"Tp:50;a",
 $1:[function(a){M.Iy()
-$.iv().To("Starting dartlomacy app")},"$1",null,2,0,null,78,"call"],
+$.iv().To("Starting dartlomacy app")
+$.iv().To("Creating cast")
+new M.S5(null,null).oS()
+$.iv().To("Done creating cast")},"$1",null,2,0,null,78,"call"],
 $isEH:true}}],["","",,V,{
 "^":"",
 Yt:{
@@ -12103,6 +12114,7 @@ I.$lazy($,"context","Lt","ca",function(){return P.ND(self)})
 I.$lazy($,"_DART_OBJECT_PROPERTY_NAME","kt","Iq",function(){return init.getIsolateTag("_$dart_dartObject")})
 I.$lazy($,"_DART_CLOSURE_PROPERTY_NAME","Ri","Dp",function(){return init.getIsolateTag("_$dart_dartClosure")})
 I.$lazy($,"_dartProxyCtor","Je","hs",function(){return function DartObject(a){this.o=a}})
+I.$lazy($,"logger","qF","nt",function(){return N.Jx("Cast")})
 I.$lazy($,"_logger","Rt","iv",function(){return N.Jx("DartlomacyElement")})
 I.$lazy($,"_logger","mP","y0",function(){return N.Jx("LobbyElement")})
 I.$lazy($,"_loggers","Uj","Iu",function(){return P.Fl(P.qU,N.Rw)})

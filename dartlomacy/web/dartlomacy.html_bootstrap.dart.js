@@ -7111,15 +7111,6 @@ return}throw"Unable to print message: "+String(a)}}],["","",,M,{
 "^":"",
 Iy:function(){N.Jx("").sQG(C.a8)
 N.Jx("").gSZ().nu(new M.b9())},
-S5:{
-"^":"a;vO,ka",
-oS:function(){$.nt().To("Cast constructor")
-var z=$.ca()
-z.V7("alert",["Hello from Dart!"])
-this.vO=J.UQ(z,"cast")
-this.ka=J.UQ(J.UQ(J.UQ(z,"cast"),"receiver"),"CastReceiverManager").nQ("getInstance")
-$.nt().To("Done with Cast constructor")},
-static:{"^":"qF"}},
 b9:{
 "^":"Tp:100;",
 $1:[function(a){P.mp(a.gFl().bu(0)+" - "+a.gQG().oc+" - "+a.giJ()+" - "+H.d(J.z2(a)))},"$1",null,2,0,null,99,"call"],
@@ -7153,7 +7144,8 @@ Yi:{
 $1:[function(a){M.Iy()
 $.iv().To("Starting dartlomacy app")
 $.iv().To("Creating cast")
-new M.S5(null,null).oS()
+$.nt().To("Cast constructor")
+$.nt().To("Done with Cast constructor")
 $.iv().To("Done creating cast")},"$1",null,2,0,null,78,"call"],
 $isEH:true}}],["","",,V,{
 "^":"",

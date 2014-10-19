@@ -7144,8 +7144,7 @@ Yi:{
 $1:[function(a){M.Iy()
 $.iv().To("Starting dartlomacy app")
 $.iv().To("Creating cast")
-$.nt().To("Cast constructor")
-$.nt().To("Done with Cast constructor")
+$.ca().V7("alert",["Hello from Dart!"])
 $.iv().To("Done creating cast")},"$1",null,2,0,null,78,"call"],
 $isEH:true}}],["","",,V,{
 "^":"",
@@ -12107,7 +12106,6 @@ I.$lazy($,"context","Lt","ca",function(){return P.ND(self)})
 I.$lazy($,"_DART_OBJECT_PROPERTY_NAME","kt","Iq",function(){return init.getIsolateTag("_$dart_dartObject")})
 I.$lazy($,"_DART_CLOSURE_PROPERTY_NAME","Ri","Dp",function(){return init.getIsolateTag("_$dart_dartClosure")})
 I.$lazy($,"_dartProxyCtor","Je","hs",function(){return function DartObject(a){this.o=a}})
-I.$lazy($,"logger","qF","nt",function(){return N.Jx("Cast")})
 I.$lazy($,"_logger","Rt","iv",function(){return N.Jx("DartlomacyElement")})
 I.$lazy($,"_logger","mP","y0",function(){return N.Jx("LobbyElement")})
 I.$lazy($,"_loggers","Uj","Iu",function(){return P.Fl(P.qU,N.Rw)})
